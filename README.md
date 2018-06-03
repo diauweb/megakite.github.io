@@ -1,2 +1,2 @@
-#megakite.github.io
+# megakite.github.io
 The personal blog of *@megakite*.
