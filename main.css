@@ -1,7 +1,7 @@
 html {background-color: #4a75b9;}
 body {text-align: center; background-color: #4a75b9;}
 #mp {max-width:1140px; min-width:960px; margin:0 auto; text-align: left;}
-h1 {color: white; font-size: 36px; font-family: 'IBM Plex Sans', sans-serif; font-weight:700;}
-h2 {color: white; font-size: 28px; font-family: 'IBM Plex Sans', sans-serif; font-weight:500;}
+h1 {color: white; font-size: 36px; font-family: 'IBM Plex Sans', sans-serif; font-weight:300;}
+h2 {color: white; font-size: 28px; font-family: 'IBM Plex Sans', sans-serif;}
 h3 {color: white; font-size: 22px; font-family: 'IBM Plex Sans', sans-serif; font-weight:700;}
 p {color: white; font-size: 18px; font-family: 'IBM Plex Sans', sans-serif;}
