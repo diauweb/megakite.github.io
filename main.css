@@ -1,3 +1,4 @@
 html {min-width: 1210px; background-color: #4a75b9; overflow:scroll; overflow-x:hidden;}
+body {text-align: center; margin: 0; padding: 0; border: 0; background: #4a75b9;}
 h1 {color: white; font-size: 36px; font-weight:700; font-family: sans-serif;}
 h2 {color: white; font-size: 28px; font-weight:500;}
