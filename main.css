@@ -1,11 +1,10 @@
 html {background-color: #ebebeb;}
 body {text-align: center; background-color: #ebebeb;}
 #mp {text-align: left; max-width: 1140px; min-width:960px; margin:0 auto;}
-/*#aud {max-width: 600px; min-width:200px; margin:0 auto; text-align: left; box-shadow:0px 2px 10px #808080;}*/
-h1 {color: #101010; font-size: 40px; font-family: 'IBM Plex Sans', 'Hiragino Sans GB', sans-serif; font-weight: 300;}
-h2 {color: #808080; font-size: 28px; font-family: 'IBM Plex Sans', 'Hiragino Sans GB', sans-serif; font-weight: 400;}
-h3 {color: #101010; font-size: 22px; font-family: 'IBM Plex Sans', 'Hiragino Sans GB', sans-serif; font-weight: 700;}
-p {color: #101010; font-size: 18px; font-family: 'IBM Plex Sans', 'Hiragino Sans GB', sans-serif;}
-a:link, a:visited {color: #101010; text-decoration: underline;}
-a:hover, a:active {color: #808080; text-decoration: underline;}
-/*audio {margin: 0 auto;}*/
+.title {text-align: left;}
+h1 {color: #101010; font-size: 40px; font-family: 'IBM Plex Sans', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei UI', sans-serif; font-weight: 300;}
+h2 {color: #808080; font-size: 28px; font-family: 'IBM Plex Sans', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei UI', sans-serif; font-weight: 400;}
+h3 {text-align: center; color: #101010; font-size: 24px; font-family: 'IBM Plex Sans', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei UI', sans-serif; font-weight: 700;}
+p {color: #101010; font-size: 18px; font-family: 'IBM Plex Sans', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei UI', sans-serif;}
+a:link, a:visited {color: #101010; text-decoration: none;}
+a:hover, a:active {color: #808080; text-decoration: none;}
