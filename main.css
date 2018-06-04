@@ -1,7 +1,9 @@
 html {background-color: #ebebeb;}
 body {text-align: center; background-color: #ebebeb;}
 #mp {max-width:1140px; min-width:960px; margin:0 auto; text-align: left;}
-h1 {color: #101010; font-size: 36px; font-family: 'IBM Plex Sans', sans-serif; font-weight:300;}
-h2 {color: #404040; font-size: 28px; font-family: 'IBM Plex Sans', sans-serif; font-weight:400;}
+h1 {color: #101010; font-size: 40px; font-family: 'IBM Plex Sans', sans-serif; font-weight:300;}
+h2 {color: #808080; font-size: 28px; font-family: 'IBM Plex Sans', sans-serif; font-weight:400;}
 h3 {color: #101010; font-size: 22px; font-family: 'IBM Plex Sans', sans-serif; font-weight:700;}
 p {color: #101010; font-size: 18px; font-family: 'IBM Plex Sans', sans-serif;}
+a:link, a:visited {color:#101010; text-decoration:underline;}
+a:hover, a:active {color:#808080; text-decoration:underline;}
