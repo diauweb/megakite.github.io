@@ -1,9 +1,10 @@
 html {background-color: #ebebeb;}
 body {text-align: center; background-color: #ebebeb;}
-#mp {text-align: left; max-width: 1140px; min-width:960px; margin:0 auto;}
+.mp {text-align: left; max-width: 1140px; min-width:960px; margin:0 auto;}
 .title {text-align: left;}
+.prg {text-align: left; padding: 0 80px 0 80px;}
 h1 {color: #101010; font-size: 40px; font-family: 'IBM Plex Sans', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei UI', sans-serif; font-weight: 300;}
-h2 {color: #808080; font-size: 28px; font-family: 'IBM Plex Sans', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei UI', sans-serif; font-weight: 400;}
+h2 {color: #808080; font-size: 30px; font-family: 'IBM Plex Sans', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei UI', sans-serif; font-weight: 400;}
 h3 {text-align: center; color: #101010; font-size: 24px; font-family: 'IBM Plex Sans', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei UI', sans-serif; font-weight: 700;}
 p {color: #101010; font-size: 18px; font-family: 'IBM Plex Sans', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei UI', sans-serif;}
 a:link, a:visited {color: #101010; text-decoration: none;}
