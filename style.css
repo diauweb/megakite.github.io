@@ -1,17 +1,23 @@
+* {margin: 0; padding: 0;}
+
 html {background-color: #ebebeb;}
 body {text-align: center; background-color: #ebebeb;}
 .page {text-align: left; max-width: 1140px; min-width: 960px; margin: 0 auto;}
 .head {text-align: left;}
-.indx {text-align: center; padding: 0 20px 0 20px;}
-.artc {text-align: left; padding: 0 40px 0 40px;}
-.clmn {float:left; padding: 0 20px 0 20px;}
+.indx {text-align: center; padding: 0 20px;}
+.artc {text-align: left; padding: 0 40px;}
+.clmn {text-align: left; display: inline-block; width: 33%;}
 
-h1 {color: #101010; font-size: 28px; line-height: 28px; text-align: center; font-family: 'IBM Plex Sans', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei UI', sans-serif; font-weight: 700;}
-h2 {color: #101010; font-size: 22px; font-family: 'IBM Plex Sans', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei UI', sans-serif; font-weight: 700;}
-p {color: #202020; font-size: 18px; line-height: 32px; font-family: 'IBM Plex Sans', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei UI', sans-serif;}
-.hg1 {color: #101010; font-size: 48px; font-family: 'IBM Plex Sans', sans-serif; font-weight: 300;}
-.hg2 {color: #808080; font-size: 32px; font-family: 'IBM Plex Sans', sans-serif; font-weight: 400;}
-.sml {color: #808080; font-size: 14px; text-align: center; font-family: 'IBM Plex Sans', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei UI', sans-serif;}
+h1 {color: #101010; font-size: 28px; text-align: center; font-family: 'IBM Plex Sans', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei UI', sans-serif; font-weight: 700;}
+h2 {color: #101010; font-size: 22px; margin: 0 0 14px 0; font-family: 'IBM Plex Sans', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei UI', sans-serif; font-weight: 700;}
+p {color: #404040; font-size: 18px; line-height: 32px; margin: 0 0 14px 0; font-family: 'IBM Plex Sans', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei UI', sans-serif;}
+br {line-height: 200%;}
+.hg1 {color: #101010; font-size: 48px; margin: 40px 0; font-family: 'IBM Plex Sans', sans-serif; font-weight: 300;}
+.hg2 {color: #808080; font-size: 32px; margin: 32px 0; font-family: 'IBM Plex Sans', sans-serif;}
+.sml {color: #808080; font-size: 14px; margin: 10px 0; text-align: center; font-family: 'IBM Plex Sans', sans-serif;}
 
 a:link, a:visited {color: #101010; text-decoration: none;}
 a:hover, a:active {color: #808080; text-decoration: none;}
+
+img {margin: 18px auto; display: block; box-shadow: 0px 4px 30px #C0C0C0;}
+.aud {text-align: center;}
