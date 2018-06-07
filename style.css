@@ -4,7 +4,7 @@ body {text-align: center; background-color: #ebebeb;}
 .head {text-align: left;}
 .indx {text-align: center; padding: 0 20px 0 20px;}
 .artc {text-align: left; padding: 0 40px 0 40px;}
-.clmn {display: inline; padding: 0 20px 0 20px;}
+.clmn {float:left; padding: 0 20px 0 20px;}
 
 h1 {color: #101010; font-size: 28px; line-height: 28px; text-align: center; font-family: 'IBM Plex Sans', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei UI', sans-serif; font-weight: 700;}
 h2 {color: #101010; font-size: 22px; font-family: 'IBM Plex Sans', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei UI', sans-serif; font-weight: 700;}
