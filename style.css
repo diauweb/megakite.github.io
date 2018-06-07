@@ -4,10 +4,10 @@ body {text-align: center; background-color: #ebebeb;}
 .head {text-align: left;}
 .artc {text-align: left; padding: 0 40px 0 40px;}
 
-h1 {color: #101010; font-size: 28px; text-align: center; font-family: 'IBM Plex Sans', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei UI', sans-serif; font-weight: 700;}
+h1 {color: #101010; font-size: 28px; line-height: 28px; text-align: center; font-family: 'IBM Plex Sans', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei UI', sans-serif; font-weight: 700;}
 h2 {color: #101010; font-size: 22px; font-family: 'IBM Plex Sans', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei UI', sans-serif; font-weight: 700;}
-p {line-height: 32px; color: #202020; font-size: 18px; font-family: 'IBM Plex Sans', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei UI', sans-serif;}
-.hg1 {color: #101010; font-size: 48px; line-height: 36px; font-family: 'IBM Plex Sans', sans-serif; font-weight: 300;}
+p {color: #202020; font-size: 18px; line-height: 32px; font-family: 'IBM Plex Sans', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei UI', sans-serif;}
+.hg1 {color: #101010; font-size: 48px; font-family: 'IBM Plex Sans', sans-serif; font-weight: 300;}
 .hg2 {color: #808080; font-size: 32px; font-family: 'IBM Plex Sans', sans-serif; font-weight: 400;}
 .sml {color: #808080; font-size: 14px; text-align: center; font-family: 'IBM Plex Sans', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei UI', sans-serif;}
 
