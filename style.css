@@ -8,9 +8,9 @@ body {text-align: center; background-color: #ebebeb;}
 .artc {text-align: left; padding: 0 40px;}
 .clmn {text-align: left; display: inline-block; width: 33%;}
 
-h1 {color: #101010; font-size: 28px; text-align: center; font-family: 'IBM Plex Sans', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei UI', sans-serif; font-weight: 700;}
-h2 {color: #101010; font-size: 22px; margin: 0 0 14px 0; font-family: 'IBM Plex Sans', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei UI', sans-serif; font-weight: 700;}
-p {color: #404040; font-size: 18px; line-height: 32px; margin: 0 0 14px 0; font-family: 'IBM Plex Sans', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei UI', sans-serif;}
+h1 {color: #101010; font-size: 28px; text-align: center; font-family: 'IBM Plex Sans', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei UI', 'Microsoft Yahei', sans-serif; font-weight: 700;}
+h2 {color: #101010; font-size: 22px; margin: 0 0 14px 0; font-family: 'IBM Plex Sans', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei UI', 'Microsoft Yahei', sans-serif; font-weight: 700;}
+p {color: #404040; font-size: 18px; line-height: 32px; margin: 0 0 14px 0; font-family: 'IBM Plex Sans', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft Yahei UI',  'Microsoft Yahei', sans-serif;}
 br {line-height: 200%;}
 .hg1 {color: #101010; font-size: 48px; margin: 40px 0; font-family: 'IBM Plex Sans', sans-serif; font-weight: 300;}
 .hg2 {color: #808080; font-size: 32px; margin: 32px 0; font-family: 'IBM Plex Sans', sans-serif;}
