@@ -1,10 +1,10 @@
 * {margin: 0; padding: 0;}
 
-body {text-align: center; background-color: #ebebeb; padding:0 10px; font-family: 'IBM Plex Sans', 'PingFang SC', 'Hiragino Sans GB', 'Sarasa Gothic SC' , 'Microsoft Yahei UI', 'Microsoft Yahei', sans-serif;}
+body {text-align: center; background-color: #ebebeb; padding: 0 10px; font-family: 'IBM Plex Sans', 'PingFang SC', 'Hiragino Sans GB', 'Sarasa Gothic SC' , 'Microsoft Yahei UI', 'Microsoft Yahei', sans-serif;}
 #page {text-align: left; max-width: 1140px; min-width: 960px; margin: 0 auto;}
 .indx {text-align: center; padding: 0 40px;}
 .artc {padding: 0 40px;}
-.clmn {text-align: left; display: inline-block; width: 33%;}
+.clmn {text-align: left; display: inline-block; margin: 40px 0; width: 33%;}
 
 h1 {text-align: center; color: #101010; font-size: 28px; font-weight: 700;}
 h2 {color: #101010; font-size: 22px; margin: 10px 0; font-weight: 700;}
