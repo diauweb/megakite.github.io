@@ -23,8 +23,10 @@ body {
 	}
 .clmn {
 	text-align: left;
+	vertical-align: top;
 	display: inline-block;
 	width: 33%;
+	margin: -10px 0;
 	}
 
 h1 {text-align: center;
@@ -35,7 +37,7 @@ h1 {text-align: center;
 h2 {
 	color: #101010;
 	font-size: 22px;
-	margin: 10px 0;
+	margin: 14px 0;
 	font-weight: 700;
 	}
 p {
