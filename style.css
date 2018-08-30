@@ -43,8 +43,8 @@ h2 {
 p {
 	color: #404040;
 	font-size: 18px;
-	line-height: 32px;
-	margin: 10px 0;
+	line-height: 30px;
+	margin: 12px 0;
 	}
 .hg1 {
 	color: #101010;
@@ -62,7 +62,7 @@ p {
 	color: #808080;
 	font-size: 14px;
 	line-height: 22px;
-	margin: 10px 0;
+	margin: 12px 0;
 	}
 
 a:link, a:visited {
@@ -72,7 +72,7 @@ a:hover, a:active {
 	color: #808080;
 	text-decoration: none;}
 
-img {margin: 18px auto;
+img {margin: 22px auto;
 	display: block;
 	box-shadow: 0px 4px 30px #c0c0c0;}
 hr {
