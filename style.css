@@ -70,6 +70,12 @@ p {
 	line-height: 22px;
 	margin: 12px 0;
 	}
+.note {
+	color: #808080;
+	font-size: 14px;
+	line-height: 22px;
+	margin: 12px 0;
+	}
 
 a:link, a:visited {
 	color: #404040;
