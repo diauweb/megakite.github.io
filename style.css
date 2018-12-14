@@ -28,6 +28,10 @@ body {
 	width: 33%;
 	margin: -10px 0;
 	}
+.refe {
+	background-color: #d8d8d8;
+	padding: 20px 40px;
+	}
 
 h1 {text-align: center;
 	color: #101010;
