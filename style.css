@@ -8,7 +8,13 @@ body {
 	text-align: center;
 	background-color: #ebebeb;
 	padding: 0 1em;
-	font-family: 'IBM Plex Sans', 'PingFang SC', 'Hiragino Sans GB', 'Sarasa Gothic SC' , 'Microsoft Yahei UI', 'Microsoft Yahei', sans-serif;
+	font-family: 'IBM Plex Sans', 
+				 'PingFang SC', 
+				 'Hiragino Sans GB', 
+				 'Sarasa Gothic SC' , 
+				 'Microsoft Yahei UI', 
+				 'Microsoft Yahei', 
+				 sans-serif;
 	}
 #page {
 	text-align: left;
@@ -28,7 +34,7 @@ body {
 	vertical-align: top;
 	display: inline-block;
 	width: 49%;
-	margin: -.5em 0;
+	margin: -.375em 0;
 	}
 .intb {
 	background-color: #d8d8d8;
@@ -109,7 +115,7 @@ img {
 	}
 hr {
 	height: 0px;
-	margin: .5em 0;
+	margin: .25em 0;
 }
 
 
