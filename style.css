@@ -80,6 +80,7 @@ p {
 	margin: 1.5rem 0;
 	}
 .sml {
+	text-align: center;
 	color: #808080;
 	font-size: .875rem;
 	line-height: 1.25rem;
@@ -91,7 +92,7 @@ p {
 .cmt {
 	color: #808080;
 	font-size: .875rem;
-	float: right;
+	/*float: right;*/
 }
 
 a:link, a:visited {
