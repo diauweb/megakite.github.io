@@ -10,7 +10,9 @@ body {
 	text-align: center;
 	background-color: #ebebeb;
 	padding: 0 1em;
-	font-family: 'IBM Plex Sans', 
+	font-family: 'IBM Plex Serif', 
+				 'Source Han Serif SC',
+				 'Noto Serif SC',
 				 'PingFang SC', 
 				 'Hiragino Sans GB', 
 				 'Sarasa Gothic SC' , 
