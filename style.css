@@ -10,12 +10,8 @@ body {
 	text-align: center;
 	background-color: #ebebeb;
 	padding: 0 1em;
-	font-family: 'IBM Plex Sans', 
-				 'PingFang SC', 
-				 'Hiragino Sans GB', 
-				 'Sarasa Gothic SC' , 
-				 'Microsoft Yahei UI', 
-				 'Microsoft Yahei', 
+	font-family: 'IBM Plex Serif', 
+				 'Noto Serif SC', 
 				 sans-serif;
 	}
 #page {
