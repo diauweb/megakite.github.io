@@ -8,14 +8,19 @@ window.onload = () => {
         root.style.setProperty('--color-3', '#ffffff');
         root.style.setProperty('--color-4', '#ffffff');
         root.style.setProperty('--color-5', '#ffffff');
+
+        tmp = document.getElementsByClassName('intb');
+        Array.from(tmp).forEach(element => {
+            element.style.setProperty('background-color', 'var(--color-1)');
+        });
     };
 
     document.getElementById('dark').onclick = () => {
-        root.style.setProperty('--color-1', '#101000');
-        root.style.setProperty('--color-2', '#404040');
-        root.style.setProperty('--color-3', '#808080');
-        root.style.setProperty('--color-4', '#d8d8d8');
-        root.style.setProperty('--color-5', '#ebebeb');
+        root.style.setProperty('--color-1', '#141414');
+        root.style.setProperty('--color-2', '#444444');
+        root.style.setProperty('--color-3', '#848484');
+        root.style.setProperty('--color-4', '#dcdcdc');
+        root.style.setProperty('--color-5', '#efefef');
     };
 
     document.getElementById('light').onclick = () => {

@@ -9,6 +9,8 @@
 	--color-3: #808080;
 	--color-4: #404040;
 	--color-5: #101010;
+	--border: 0;
+	--shadow: 0 .25em 2em var(--color-2);
 }
 
 
@@ -95,7 +97,6 @@ p {
 .cmt {
 	color: var(--color-3);
 	font-size: .875rem;
-	/*float: right;*/
 }
 
 a:link, a:visited {
@@ -111,7 +112,7 @@ img {
 	max-height: 100%;
 	margin: 0 auto 1.125em;
 	display: block;
-	box-shadow: 0 .25em 2em var(--color-2);
+	box-shadow: var(--shadow);
 	text-align: center;
 	}
 hr {
@@ -126,7 +127,6 @@ hr {
 }
 .thmbttn {
 	background-color: var(--color-2);
-	border: none;
 	height: 8px;
 	width: 25%;
 	float: left;
