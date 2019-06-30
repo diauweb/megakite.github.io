@@ -1,42 +1,29 @@
 window.onload = () => {
 
-    let root = document.documentElement;
+    var linkElement = document.createElement('link');
+    linkElement.setAttribute('rel', 'stylesheet');
+    linkElement.setAttribute('type', 'text/css');
+
+    var headElement = document.getElementsByTagName('head')[0];
 
     document.getElementById('black').onclick = () => {
-        root.style.setProperty('--color-1', '#000000');
-        root.style.setProperty('--color-2', '#ffffff');
-        root.style.setProperty('--color-3', '#ffffff');
-        root.style.setProperty('--color-4', '#ffffff');
-        root.style.setProperty('--color-5', '#ffffff');
-
-        tmp = document.getElementsByClassName('intb');
-        Array.from(tmp).forEach(element => {
-            element.style.setProperty('background-color', 'var(--color-1)');
-        });
+        linkElement.setAttribute('href', '/Z/style.black.css');
+        headElement.appendChild(linkElement);
     };
 
     document.getElementById('dark').onclick = () => {
-        root.style.setProperty('--color-1', '#141414');
-        root.style.setProperty('--color-2', '#444444');
-        root.style.setProperty('--color-3', '#848484');
-        root.style.setProperty('--color-4', '#dcdcdc');
-        root.style.setProperty('--color-5', '#efefef');
+        linkElement.setAttribute('href', '/Z/style.dark.css');
+        headElement.appendChild(linkElement);
     };
 
     document.getElementById('light').onclick = () => {
-        root.style.setProperty('--color-1', '#ebebeb');
-        root.style.setProperty('--color-2', '#d8d8d8');
-        root.style.setProperty('--color-3', '#808080');
-        root.style.setProperty('--color-4', '#404040');
-        root.style.setProperty('--color-5', '#101010');
+        if (headElement.lastChild == linkElement)
+            headElement.removeChild(linkElement);
     };
 
     document.getElementById('white').onclick = () => {
-        root.style.setProperty('--color-1', '#ffffff');
-        root.style.setProperty('--color-2', '#000000');
-        root.style.setProperty('--color-3', '#000000');
-        root.style.setProperty('--color-4', '#000000');
-        root.style.setProperty('--color-5', '#000000');
+        linkElement.setAttribute('href', '/Z/style.white.css');
+        headElement.appendChild(linkElement);
     };
 
 };
