@@ -1,29 +1,27 @@
 window.onload = () => {
 
-    var linkElement = document.createElement('link');
-    linkElement.setAttribute('rel', 'stylesheet');
-    linkElement.setAttribute('type', 'text/css');
-
-    var headElement = document.getElementsByTagName('head')[0];
+    var link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
 
     document.getElementById('black').onclick = () => {
-        linkElement.setAttribute('href', '/Z/style.black.css');
-        headElement.appendChild(linkElement);
+        link.href = './Z/style.black.css';
+        document.head.appendChild(link);
     };
 
     document.getElementById('dark').onclick = () => {
-        linkElement.setAttribute('href', '/Z/style.dark.css');
-        headElement.appendChild(linkElement);
+        link.href = './Z/style.dark.css';
+        document.head.appendChild(link);
     };
 
     document.getElementById('light').onclick = () => {
-        if (headElement.lastChild == linkElement)
-            headElement.removeChild(linkElement);
+        if (document.head.children.length > 4)
+            document.head.removeChild(link);
     };
 
     document.getElementById('white').onclick = () => {
-        linkElement.setAttribute('href', '/Z/style.white.css');
-        headElement.appendChild(linkElement);
+        link.href = './Z/style.white.css';
+        document.head.appendChild(link);
     };
 
 };
