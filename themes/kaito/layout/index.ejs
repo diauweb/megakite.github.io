@@ -1,0 +1,11 @@
+<div class="indx">
+
+     <% site.categories.forEach(cat => { %>
+          <div class="clmn">
+            <h2><%= __('category.' + cat.name.trim()) |  cat.name %>
+            <% console.log('category.' + cat.name.trim()) %></h2>
+          </div>  
+     <% }) %>
+    <hr/>
+</div>
+ 
