@@ -1,0 +1,17 @@
+:root {
+	--color-1: #ffffff;
+	--color-2: #000000;
+	--color-3: #000000;
+	--color-4: #000000;
+	--color-5: #000000;
+}
+
+.intb {
+	background-color: transparent;
+	border: 1px solid var(--color-2);
+}
+
+img {
+	box-shadow: none;
+	border: 1px solid var(--color-2);
+}
