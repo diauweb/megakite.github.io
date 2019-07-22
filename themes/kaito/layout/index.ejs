@@ -1,10 +1,14 @@
 <div class="indx">
-
      <% site.categories.forEach(cat => { %>
           <div class="clmn">
-            <h2><%= __('category.' + cat.name.trim()) |  cat.name %>
-            <% console.log('category.' + cat.name.trim()) %></h2>
-          </div>  
+            <h2><%= __('category.' + cat.name.trim()) || cat.name %></h2>
+            <% cat.posts.forEach(post => {%>
+              <p>
+                <a href="<%= url_for(post.path) %>"><%= post.title %></a>
+                <span class="cmt">&nbsp;<%= post.date.format("YYMMDD") %></span>
+              </p>
+            <% }) %>
+          </div> 
      <% }) %>
     <hr/>
 </div>
