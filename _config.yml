@@ -81,4 +81,3 @@ deploy:
   type: git
   repo: https://github.com/diauweb/megakite.github.io
   branch: production
-
