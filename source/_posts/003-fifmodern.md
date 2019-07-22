@@ -98,9 +98,11 @@ categories: aud
 > Dorian Pentatonic 1 2 b3 5 6
 > Phrygian Pentatonic 1 b2 4 5 b7
 > Locrian Pentatonic 1 b3 4 b5 b7
+
 这些音阶在构建时使用了怎样的思路？与本文所阐述的有何差别？
 2、一个布鲁斯音阶中总共有六个音。若逐音进行递推，除了上文介绍到的五种以外，还有一种事实存在的音阶：
 > 1 b2 3 b5 6 7
+
 思考此音阶的特点。
 
 3、题图讲了些啥？
