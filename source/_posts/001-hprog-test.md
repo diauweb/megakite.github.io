@@ -1,6 +1,6 @@
 ---
 title: 和声进行分析
-date: 2018-08-11 00:00:00
+date: 2018-06-07 00:00:00
 categories: aud
 ---
 {% asset_img hprog-1_s.png %}
