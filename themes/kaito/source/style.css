@@ -47,6 +47,7 @@ body {
 blockquote {
 	background-color: var(--color-2);
 	padding: 1em 2em;
+	padding-bottom: 0.5em;
 }
 
 h1 {
