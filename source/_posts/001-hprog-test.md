@@ -1,15 +1,11 @@
 ---
 title: 和声进行分析
-date: 2018-06-07 00:00:00
+date: 2018-08-11 00:00:00
 categories: aud
 ---
 {% asset_img hprog-1_s.png %}
 
-<div class="aud">
-	<audio controls="controls">
-		<source src="{% asset_path hprog-1_a.mp3 %}" type="audio/mpeg" />
-	</audio>
-</div>
+{% audcontrol hprog-1_a.mp3 %}
 
 最近常在一些欧美流行乐和电子舞曲里听到这种进行，觉得挺有意思，就想作些分析；正巧最近也想建一个博客，那么就拿这篇文章当作测试好了。
 
