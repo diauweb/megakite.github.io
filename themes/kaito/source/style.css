@@ -44,6 +44,11 @@ body {
 	padding: 1em 2em;
 }
 
+blockquote {
+	background-color: var(--color-2);
+	padding: 1em 2em;
+}
+
 h1 {
 	text-align: center;
 	color: var(--color-5);
@@ -95,6 +100,11 @@ p {
 .cmt {
 	color: var(--color-3);
 	font-size: .875rem;
+}
+
+.cmt a {
+	text-decoration: underline !important;
+	color: var(--color-3) !important;
 }
 
 a:link, a:visited {
