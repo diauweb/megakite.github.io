@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head><meta name="generator" content="Hexo 3.9.0">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif:300,400,400i,700,700i|Noto+Serif+SC:400,700">
+	<script src="/script.js"></script>
+	<title>kite.theliquid.group</title>
+</head>
+<body>
+    <div id="page">
+        <header>
+	<p class="hg1"><a href="/">kite.theliquid.group</a></p>
+	<div class="hg2">
+	<p class="hg2">The personal blog of <a href="/about.html" style="color: var(--color-3)"><i>@megakite</i></a>.</p>
+	<div class="theme-picker">
+    <div class="theme-picker-icon"></div>
+    <div class="theme-options">
+        <div class="theme-separator"></div>
+        <div class="theme-type" id="theme-gray"></div>
+        <div class="theme-type" id="theme-dark"></div>
+        <div class="theme-type" id="theme-white"></div>
+        <div class="theme-type" id="theme-black"></div>
+    </div>
+</div>
+
+	</div>
+</header>
+<hr />
+        <div class="artc">
+    <h1>五度圈与现代音阶之关系和各五声、布鲁斯音阶之推导</h1>
+    <p class="sml">October 13, 2018.</p>
+    <img src="/aud/003-fifmodern/title_1.png">
+
+<p>我们知道，目前最为常用的现代音阶有七个。若按照音阶中降号数量升序——或即依「亮度」由明至暗排列，它们分别如下图所示：</p>
+<img src="/aud/003-fifmodern/0-1.png">
+
+<p>如果写在钢琴卷帘上，尝试观察升降号变化规律的话，可以发现一些细节：</p>
+<img src="/aud/003-fifmodern/0-2.png">
+<p>能够看到，由明至暗的各音阶升降号，是以<strong>上行四度/下行五度</strong>的动作在变化。</p>
+<p>本文主要研究的课题便是五度圈与各现代音阶的关系，以及如何使用五度圈推导「现代五声音阶」与「现代布鲁斯音阶」。<br><br></p>
+<h2 id="一、最基本的关系"><a href="#一、最基本的关系" class="headerlink" title="一、最基本的关系"></a>一、最基本的关系</h2><p>首先来看五度圈。</p>
+<img src="/aud/003-fifmodern/1-1.png">
+<p class="sml">（注：为方便理解，本文在第一节中使用了如上图所示的绝对音高五度圈。后面的小节将替换为相对级数五度圈。）</p>
+
+<p>我们知道，C Ionian 的各构成音分别是 C D E F G A B。若在五度圈上将这些音进行标注，结果会是这样：</p>
+<img src="/aud/003-fifmodern/1-2.png">
+
+<p>可以发现，这七个标注的音实际上组成了一个连续的半弧形，覆盖住五度圈的一半。</p>
+<p>同理，若标注出 C Aeolian 的构成音，结果是：</p>
+<img src="/aud/003-fifmodern/1-3.png">
+
+<p>实际上，C Aeolian 的半弧可以看作是 C Ionian 向五度圈的<strong>上行四度/下行五度方向（逆时针）旋转</strong>了三个音而形成。</p>
+<p>由此，我们可以推导出七个现代音阶各自在五度圈上的位置：</p>
+<img src="/aud/003-fifmodern/1-4.png">
+<p>根据五度圈可以发现：从任意一个音阶的半弧开始，每逆时针旋转一步，半弧围住的音所代表的调号中，升号就会减少一个，同时降号增加一个。<strong>进行逆时针（上行四度/下行五度）旋转时，随着降号的增多，音阶会愈发晦暗；反之，若进行顺时针（上行五度/下行四度）旋转，则升号增多，给人的感觉就会逐渐变得明亮<sup>1</sup></strong>。<br><br></p>
+<h2 id="二、五声音阶的来历2"><a href="#二、五声音阶的来历2" class="headerlink" title="二、五声音阶的来历2"></a>二、五声音阶的来历<sup>2</sup></h2><h3 id="1、纯五跨度"><a href="#1、纯五跨度" class="headerlink" title="1、纯五跨度"></a>1、纯五跨度</h3><p>我们知道，五度圈中两相邻音之间音高相差完全五度。若设立一种表示各级音与主音之间相差「单位五度」数量的值，并规定：<strong>相对于主音，处于顺时针方向的音的值为正，处于逆时针的则为负</strong>，便是（相对于主音的）「纯五跨度」的概念。</p>
+<p>各级音相对于主音的纯五跨度如下图所示：</p>
+<img src="/aud/003-fifmodern/2-1.png">
+<p>与绝对音高五度圈相比较，可以发现<strong>各级音的纯五跨度在数值和符号上与绝对音高五度圈的升降号数目和类型一致</strong>。上一节中讲述的基本关系在此仍然适用。</p>
+<h3 id="2、上、下极点音"><a href="#2、上、下极点音" class="headerlink" title="2、上、下极点音"></a>2、上、下极点音</h3><p>画出 Phrygian 的半弧：</p>
+<img src="/aud/003-fifmodern/2-2.png">
+<p>可以看到，半弧的两侧分别包围住了该音阶中（相对于主音的）纯五跨度最大与最小的音：V 级音与 bII 级音。</p>
+<p>在音阶的各构成音之中，我们把<strong>纯五跨度最大者叫作「上极点音」，最小者叫作「下极点音」</strong>。于是可以知道，Phrygian 的上极点音为 V 级音（+1），下极点音为 bII 级音（-5）。</p>
+<p>其余现代音阶的上、下极点音如下图所示，推导方法相同。</p>
+<img src="/aud/003-fifmodern/2-3.png">
+
+<h3 id="3、「现代五声音阶」的推导"><a href="#3、「现代五声音阶」的推导" class="headerlink" title="3、「现代五声音阶」的推导"></a>3、「现代五声音阶」的推导</h3><p>我们将大、小调五声音阶与它们各自对应的七声音阶放在五度圈上进行比较：</p>
+<img src="/aud/003-fifmodern/2-4.png">
+
+<p>可以发现，大、小调五声音阶相对于 Ionian、Aeolian 七声音阶之间最大的差别就是<strong>被删去了（原七声音阶中的）上、下极点音</strong>。</p>
+<p>按照这种思路，我们就应当可以对其余现代调式进行改动，推导出它们各自对应的五声音阶——但此时出现了一些情况：</p>
+<img src="/aud/003-fifmodern/2-5.png">
+
+<p>能够看到，Lydian 和 Locrian 两个音阶的上、下极点音中分别各有一个作为音阶的根音，若将其删去则无法构成音阶。于是，<strong>Lydian 和 Locrian 理论上没有对应的五声音阶</strong>。</p>
+<p>剩余的五个现代七声音阶各自对应的五声音阶如下图所示：</p>
+<img src="/aud/003-fifmodern/2-6.png">
+
+<p>至此，我们就完成了对所有「现代五声音阶」的推导。</p>
+<h2 id="三、布鲁斯"><a href="#三、布鲁斯" class="headerlink" title="三、布鲁斯"></a>三、布鲁斯</h2><p>常用的布鲁斯音阶有两个，分别是大调布鲁斯音阶和小调布鲁斯音阶，它们在钢琴卷帘上像是这样：</p>
+<img src="/aud/003-fifmodern/0-3.png">
+
+<p>本质上，大、小调布鲁斯音阶均可以看作是<strong>*在大、小调五声音阶的基础上增加了一个「Blue note」</strong><sup>3</sup>而形成。对于大调布鲁斯音阶，Blue note 是 bIII 级音；对于小调则是 bV 级音。</p>
+<p>同样地，我们把大、小调布鲁斯音阶在五度圈上标记出来，并着重指出 Blue note 的位置：</p>
+<img src="/aud/003-fifmodern/3-1.png">
+
+<p>不难看出，Blue note 其实就是<strong>以原五声音阶的下极点音为起点再逆时针旋转三个音</strong>而得到——这也解释了 Blue note 为何令人「Feel blue」。</p>
+<p>由此，我们就可以推导出五个「现代五声音阶」加上 Blue note 之后形成的各「现代布鲁斯音阶」：</p>
+<img src="/aud/003-fifmodern/3-2.png">
+
+<p>理论上虽是如此，不过仔细观察可以发现，Phrygian Blues 的 Blue note 实际上是 bI 而非 VII。所以严格上来说，Phrygian Blues 也是不成立的——</p>
+<p>不过我们之前已经把两位五声音阶判了失格……这次的 Blues，干脆就留着好了！</p>
+<h2 id="四、思考"><a href="#四、思考" class="headerlink" title="四、思考"></a>四、思考</h2><p>1、本文所介绍的「现代五声音阶」与「现代布鲁斯音阶」之推导方法事实上较为不常见。在实际情况中，乐手们更有可能会使用下列各音阶进行演奏：</p>
+<blockquote>
+<p>Lydian Pentatonic 1 2 3 #4 6<br>Mixolydian Pentatonic 1 2 3 5 b7<br>Dorian Pentatonic 1 2 b3 5 6<br>Phrygian Pentatonic 1 b2 4 5 b7<br>Locrian Pentatonic 1 b3 4 b5 b7</p>
+</blockquote>
+<p>这些音阶在构建时使用了怎样的思路？与本文所阐述的有何差别？<br>2、一个布鲁斯音阶中总共有六个音。若逐音进行递推，除了上文介绍到的五种以外，还有一种事实存在的音阶：</p>
+<blockquote>
+<p>1 b2 3 b5 6 7</p>
+</blockquote>
+<p>思考此音阶的特点。</p>
+<p>3、题图讲了些啥？</p>
+<h2 id="五、后记"><a href="#五、后记" class="headerlink" title="五、后记"></a>五、后记</h2><p>下面是一段即兴：电钢弹 bE7(2)(11)→GΔ9→bB-9→GΔ7/D，最后接个 C-9；倍大提琴跑 C Dorian Blues；鼓乱打。<br>嗯……我也不知道这应该说成谁 over 谁（<br>配器之类的果然还是垃圾得不行啊，继续练罢（  </p>
+
+<div class="aud">
+	<audio controls="controls">
+	    <source src="/aud/003-fifmodern/fifthsAndModernScales_V5.mp3" type="audio/mpeg">
+	</audio>
+</div>
+    
+
+<p class="cmt">1. 『<i>Interview: Jacob Collier (Part 1)</i>』，June Lee <br>
+2. 『<i>色彩和声</i>』，华萃康 <br>
+3. 真正的「<a href="https://en.wikipedia.org/wiki/Blue_note" target="_blank" rel="noopener">Blue Note</a>」原本不存在于平均律中。这里取的是最广为人知的概念。</p>
+</div>
+<hr/>
+        <address>
+		<p class="sml">kite@theliquid.group<br />
+			megakite214g@gmail.com</p>
+		<p class="sml"><a href="/cc.html" style="color: var(--color-3)">License</a> <a href="/links.html" style="color: var(--color-3)">Links</a><br />
+			2019 kite.</p>
+</address>
+    </div>
+</body>
+</html>

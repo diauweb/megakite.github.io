@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head><meta name="generator" content="Hexo 3.9.0">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Serif:300,400,400i,700,700i|Noto+Serif+SC:400,700">
+	<script src="/script.js"></script>
+	<title>kite.theliquid.group</title>
+</head>
+<body>
+    <div id="page">
+        <header>
+	<p class="hg1"><a href="/">kite.theliquid.group</a></p>
+	<div class="hg2">
+	<p class="hg2">The personal blog of <a href="/about.html" style="color: var(--color-3)"><i>@megakite</i></a>.</p>
+	<div class="theme-picker">
+    <div class="theme-picker-icon"></div>
+    <div class="theme-options">
+        <div class="theme-separator"></div>
+        <div class="theme-type" id="theme-gray"></div>
+        <div class="theme-type" id="theme-dark"></div>
+        <div class="theme-type" id="theme-white"></div>
+        <div class="theme-type" id="theme-black"></div>
+    </div>
+</div>
+
+	</div>
+</header>
+<hr />
+        <div class="artc">
+    <h1>一周年</h1>
+    <p class="sml">June 19, 2019.</p>
+    <p>大约是在去年六月份伊始有了开博客的想法，于是简单学了一点 HTML 和 CSS，写了篇 <a href="/aud/001-hprog-test" title="测试文章">测试文章</a>，在 2018 年 6 月 15 日公开了各位面前的这个小站。<br>当时正值中考期间；16 日午后，拿到学校下发的答案册，回家就抢了个首发，扫描制作了 <a href="/2018ahzk.pdf">一份 PDF 文档</a>。而今年是由谁来做这件事，也就不大清楚了——估计大家都在等教育局的微博罢。<br>这之后的几天，一些毕业生还要去参加自主招生考试。如果 TA 们能够被录取，那么从 7 月份起，会议室空调的外机就要顶着三伏天的酷暑，为这些勤奋的孩子们工作了。</p>
+<p>自升入高中起一年以来，映像以外的事情似乎开始做得多了——这其中音乐和文字是两个重点。选择去研究它们的可能原因，一方面是兴趣，另一方面应当就是为了探索自己在这两种形式上的「感觉」——于是这个博客所主要记载的内容，也大多都是关于这些的。<br>在这一年里，博客总共增加了 12 篇投稿，平均每月更新一篇。说句实话，效率不算高；但毕竟高中生活闲时有限，考虑到这一点，这个成绩应该还算可以接受。</p>
+<p>除了内容，博客的视觉样式也经历了多次比较大的调整。包括使用响应式设计、将字体从无衬线体（IBM Plex Sans + 思源黑体）更换到衬线体（IBM Plex Serif + 思源宋体）等等。近期还计划添加暗色主题，并逐步改善正文排版质量。<br>此外，大家应该也注意到了：博客的域名悄悄地从 megakite.github.io 换到了 kite.theliquid.group。这还要感谢<a href="https://zuodiedai.life" target="_blank" rel="noopener">小呆</a>（<em>@diauweb</em>）的帮助与支持；而关于 LIquid 的一些事情，就先放在这里，以后再详谈。</p>
+<p>要说的大概就这么多。其余的考虑，如将博客迁移到自有空间、使用博客框架等等，就作为长期计划来进行了。<br>今后的日子里，我们将会在此讨论更多有趣的话题，并努力写出——或许也不止是用文字来表达——一些在别处无法见到的东西。</p>
+<p># EOF.</p>
+
+</div>
+<hr/>
+        <address>
+		<p class="sml">kite@theliquid.group<br />
+			megakite214g@gmail.com</p>
+		<p class="sml"><a href="/cc.html" style="color: var(--color-3)">License</a> <a href="/links.html" style="color: var(--color-3)">Links</a><br />
+			2019 kite.</p>
+</address>
+    </div>
+</body>
+</html>
